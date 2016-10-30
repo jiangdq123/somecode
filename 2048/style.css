@@ -1,0 +1,79 @@
+*{
+	margin: 0;padding: 0;
+}
+#info{
+	width: 408px;
+	height: 200px;
+	position: absolute;
+	left: 700px;
+	top: 150px;
+}
+#title{
+	width: 102px;
+	height: 50px;
+	color: #776E65;
+	font-weight: bold;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+	float: left;
+	background: #BBADA0;
+	font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+}
+#main{
+	width: 408px;
+	height: 408px;
+	position: absolute;
+	left: 700px;
+	top: 200px;
+}
+#newgame{
+	width: 102px;
+	height: 50px;
+	background: #8F7A66;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	float: left;
+	line-height: 50px;
+	font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+	cursor: pointer;
+}
+.back-block{
+	width: 100px;
+	height: 100px;
+	border: 1px solid #BBAFA1;
+	float: left;
+	background: #CCC0B2;
+}
+.block{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background:#EADFCB;
+	color: #776e65;
+	font-size: 45px;
+	font-weight: bold;
+	line-height: 100px;
+	text-align: center;
+	font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+	transition: all 0.2s; 
+	border: 1px solid #BBAFA1;
+}
+.score{
+	width: 102px;
+	height: 50px;
+	background: #BBADA0;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	float: left;
+}
+.score span{
+	width: 102px;
+	height: 20px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
