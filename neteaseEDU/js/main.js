@@ -279,7 +279,7 @@ function courseList(){
 			psize:psizeNumber,
 			type:typeNumber
 		}
-		AJAX("GET","http://study.163.com/webDev/couresByCategory.htm",sendData,
+		AJAX("GET","https://study.163.com/webDev/couresByCategory.htm",sendData,
 			function(str){
 				var arr=JSON.parse(str);
 
@@ -482,7 +482,7 @@ function videoPlay(){
 
 //最热排行
 function hotRank(){
-	AJAX("GET","http://study.163.com/webDev/hotcouresByCategory.htm",{},function(str){
+	AJAX("GET","https://study.163.com/webDev/hotcouresByCategory.htm",{},function(str){
 			var arr=JSON.parse(str);
 			var i = Math.round(Math.random() * 10);
 	        var len = i + 10;
